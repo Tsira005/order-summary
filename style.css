@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+body {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-image: url("bg-image.svg");
+  background-repeat: repeat-x;
+  background-color: #e0e8ff;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 450px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+  border-radius: 20px;
+  height: 697px;
+}
+.plancost {
+  margin-right: 80px;
+}
+.one img {
+  width: 450px;
+  height: 220px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+h1 {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 37px;
+  color: #1f2e55;
+}
+.two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 45px;
+}
+.two p {
+  margin-left: 48px;
+  margin-right: 48px;
+  text-align: center;
+  padding: 17px 20px 20px 20px;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  color: #717fa6;
+}
+.three {
+  margin-left: 48px;
+  margin-right: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 354px;
+  height: 98px;
+  background: #f7f9ff;
+  border-radius: 11px;
+}
+h3 {
+  color: #1f2e55;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  line-height: 21px;
+}
+.p-1 {
+  color: #717fa6;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+}
+.p-2 {
+  text-decoration-line: underline;
+  color: #382ae1;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
+  font-size: 14px;
+}
+.p-3 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  border: none;
+  width: 354px;
+  height: 50px;
+  background-color: #382ae1;
+  border-radius: 11px;
+  color: white;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  line-height: 20px;
+  font-size: 15px;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+}
+.p-4 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 48px;
+  color: #717fa6;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  line-height: 20px;
+  font-size: 15px;
+}
+.music-icon:hover {
+  opacity: 1.5;
+}
